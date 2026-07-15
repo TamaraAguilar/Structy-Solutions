@@ -1,3 +1,5 @@
+// time: O(n + n + m) => O(2n +m) => O(n + m) => O(n)
+// space: O(n)
 const anagrams = (s1, s2) => {
   // Create a hash map for each string, so that we count each character
   // They keys of the hashmap will be the unique characters, and the values
